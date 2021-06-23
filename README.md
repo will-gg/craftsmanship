@@ -28,7 +28,7 @@ Wills Craftsmanship List
 15. Use the tell don’t ask principle. If you’re poking a class for info twice - it’s a code smell.
 16. Use clean code principles. Know them.
 
-For an example of these see the https://giffgaff.gihub.com/reference-data-library repo
+For an example of these see the https://github.com/giffgaff/reference-data-library repo
 
 ### Thoughts on tests
 
