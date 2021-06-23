@@ -12,21 +12,22 @@ Software as always, borrows from other industries to get concepts articulated. C
 
 
 1. Keep it simple. Simple is pure.
-2. Code for today - not if/maybe in the future
-3. Code is closed for modification open for inspection
-4. Classes have a single responsiblity (SRP)
-5. Use Lombok judiciosly
-6. Generally favour aggregation over inheritance
-7. Pojos : Use Lombok builders judiciously with final public fields
-8. Avoid complex persistence (ie relational dbs). No one cares about your mappings.
-9. Use java uuids
-10. Controllers should have only one delegate domain class. Controllers exist for validation before transforming into business objects.
-11. Solve the business problem first using an interface layer for persistence and an interface/facade layer for inputs. Once done the rest of the soln will drop out.
-12. Ask yourself questions all the time: what’s this classes's job in life...who’s calling this method and why. Could things be better/simpler by moving a field to another class, can I reduce the scope?
-13. Build your spring in a config class where possible. It simplifies the magic going on underneath and allows you to see how assembly ought to be. It also keeps Java class pure. (Free of spring).
-14. Hexagonal architecture is good
-15. Use the tell don’t ask principle. If you’re poking a class for info twice - it’s a code smell.
-16. Use clean code principles. Know them.
+2. Readability is king.
+3. Code for today - not if/maybe in the future
+4. Code is closed for modification open for inspection
+5. Classes have a single responsiblity (SRP)
+6. Use Lombok judiciosly
+7. Generally favour aggregation over inheritance
+8. Pojos : Use Lombok builders judiciously with final public fields
+9. Avoid complex persistence (ie relational dbs). No one cares about your mappings.
+10. Use java uuids
+11. Controllers should have only one delegate domain class. Controllers exist for validation before transforming into business objects.
+12. Solve the business problem first using an interface layer for persistence and an interface/facade layer for inputs. Once done the rest of the soln will drop out.
+13. Ask yourself questions all the time: what’s this classes's job in life...who’s calling this method and why. Could things be better/simpler by moving a field to another class, can I reduce the scope?
+14. Build your spring in a config class where possible. It simplifies the magic going on underneath and allows you to see how assembly ought to be. It also keeps Java class pure. (Free of spring).
+15. Hexagonal architecture is good
+16. Use the tell don’t ask principle. If you’re poking a class for info twice - it’s a code smell.
+17. Use clean code principles. Know them.
 
 For an example of these see the https://github.com/giffgaff/reference-data-library repo
 
