@@ -50,7 +50,7 @@ For an example of these see the https://github.com/giffgaff/reference-data-libra
 1. Your repo readme is your shop window. Do it well and it sells your code like honey to bees. NEVER underestimate its power. No readme = no interest. Why should another dev want to work on your code? When you consider two competing repos on github, which one wins and why?
 1. Use pairing intelligently. Be willing to engage argue and learn. Respect your elders, they've been around.
 1. Do your own PR and review it before assigning others. You’ll always find something.
-2. Keep you build time short. A good project can die if the build time is too long. (10 mins)
+2. Keep the build time short. A good project can die if the build time is too long. (10 mins)
 3. When reviewing others, give a little slack. No one likes an ass.
 
 
