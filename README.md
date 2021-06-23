@@ -14,11 +14,12 @@ _For an example of these see the https://github.com/giffgaff/reference-data-libr
 
 1. Keep it simple. Simple is pure.
 2. Readability is king.
-3. Code for today - not if/maybe in the future
-4. Code is closed for modification open for inspection
-5. Classes have a single responsiblity (SRP)
-6. Use Lombok judiciosly
-7. Generally favour aggregation over inheritance
+3. Make serious effort with naming. It's hard (M Fowler), but remember #2 
+4. Code for today - not if/maybe in the future
+5. Code is closed for modification open for inspection
+6. Classes have a single responsiblity (SRP)
+7. Use Lombok judiciosly
+8. Generally favour aggregation over inheritance
 9. Avoid complex persistence (ie relational dbs). No one cares about your mappings.
 10. Use java uuids
 11. Controllers should have only one delegate domain class. Controllers exist for validation before transforming into business objects.
