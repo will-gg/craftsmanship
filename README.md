@@ -8,7 +8,7 @@ Craftsmanship is different things to different people. Like art. Like a swiss wa
 Software as always, borrows from other industries to get concepts articulated. Craftsmanship with respect to software is yet another borrow. Conversely, we all know what crappy code looks like. So I decided, while waiting between shoes, to jot down a list of things, taken from my 20 years experience, that I'd personally regard as craftmanship. As such, feel free to take what you like from this list. It's mine. It's subject to change. They are things I keep in my head while coding. So I thought I'd share with you instead of keeping in my head.
 
 
-Wills Craftsmanship List
+### Wills Craftsmanship List
 
 
 1. Keep it simple. Simple is pure.
