@@ -19,7 +19,6 @@ _For an example of these see the https://github.com/giffgaff/reference-data-libr
 5. Classes have a single responsiblity (SRP)
 6. Use Lombok judiciosly
 7. Generally favour aggregation over inheritance
-8. Pojos : Use Lombok builders judiciously with final public fields
 9. Avoid complex persistence (ie relational dbs). No one cares about your mappings.
 10. Use java uuids
 11. Controllers should have only one delegate domain class. Controllers exist for validation before transforming into business objects.
