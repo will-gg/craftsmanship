@@ -3,9 +3,9 @@
 ## Intro
 I was in sketchers shoe store the other day, waiting to try several shoes when it hit me that giffgaff has no formal guidelines on craftsmanship. Perhaps this is a good thing, because as soon as formal guidelines are written, then the fun drops away. 
 
-Craftsmanship is different things to different people. Like art. Like a swiss watch. Like a scuplture. Certain things will be appreciated over others. As such it's not easy to define, but when you see it, you know it.
+Craftsmanship is different things to different people. Like art, a swiss watch, a scuplture. Certain things will be appreciated over others. As such it's not easy to define, but when you see it,- you know it.
 
-Software as always, borrows from other industries to get concepts articulated. Craftsmanship with respect to software is yet another borrow. Conversely, we all know what crappy code looks like. So I decided, while waiting between shoes, to jot down a list of things, taken from my 20 years experience, that I'd personally regard as craftmanship. As such, feel free to take what you like from this list. It's mine. It's subject to change. They are things I keep in my head while coding. So I thought I'd share with you instead of keeping in my head.
+Software as always, borrows from other industries to get concepts articulated. Craftsmanship with respect to software is yet another borrow. Conversely, we all know what crappy code looks like. So I decided while waiting between shoes to jot down a list of things, taken from my 20 years experience, that I'd personally regard as craftmanship. As such, feel free to take what you like from this list. It's mine. It's subject to change. They are things I keep in my head while coding. So I thought I'd share with you instead of keeping in my head.
 
 _For an example of these see the https://github.com/giffgaff/reference-data-library repo_
 
@@ -26,9 +26,8 @@ _For an example of these see the https://github.com/giffgaff/reference-data-libr
 13. Ask yourself questions all the time: what’s this classes's job in life...who’s calling this method and why. Could things be better/simpler by moving a field to another class, can I reduce the scope?
 14. Build your spring in a config class where possible. It simplifies the magic going on underneath and allows you to see how assembly ought to be. It also keeps Java class pure. (Free of spring).
 15. Hexagonal architecture is good
-16. Use the tell don’t ask principle. If you’re poking a class for info twice - it’s a code smell.
+16. Use the tell don’t ask principle. If you’re poking a class for info  - it’s a code smell.
 17. Use clean code principles. Know them.
-
 
 
 ### Thoughts on tests
