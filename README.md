@@ -39,7 +39,7 @@ For an example of these see the https://github.com/giffgaff/reference-data-libra
 5. Always Use hard coded constants in tests.
 6. Have at least one spring integration test to capture key issues early.
 7. Don’t write tests first unless you don’t know how to build the domain model. It’s an expensive way to develop due to refactoring overhead on tests.
-8. System tests are good
+8. System tests are good, but cost time to run. Use them wisely. 
 
 ### A bit on the repo, readme and other stuff
 
